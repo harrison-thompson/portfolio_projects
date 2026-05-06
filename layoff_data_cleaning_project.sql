@@ -1,4 +1,4 @@
--- Data Cleaning
+-- Industry layoff data cleaning
 
 SELECT * FROM layoffs;
 
