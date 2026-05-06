@@ -1,4 +1,4 @@
--- Exploratory Data Analysis of industy layoff data
+-- Exploratory Data Analysis of industry layoff data
 
 SELECT *
 FROM layoffs_staging2;
