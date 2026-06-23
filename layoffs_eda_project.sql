@@ -83,7 +83,7 @@ GROUP BY company, YEAR(`date`)
 ORDER BY 3 DESC;
 
 
--- Company by year based on ho many they laid off
+-- Company by year based on how many they laid off
 WITH Company_Year (company, years, total_laid_off) AS 
 (
 SELECT company, YEAR(`date`), SUM(total_laid_off)
